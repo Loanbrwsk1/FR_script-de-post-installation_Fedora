@@ -53,6 +53,8 @@ alias fs="flatpak search"' >> /home/"$username"/.bashrc
 	cp ./"Chemin d'accès" /home/"$username"/.local/share/nautilus/scripts/
 	cp -r ./wallpapers/ /home/"$username"/Images/
 	chown -R "$username":"$username" /home/"$username"/Images/wallpapers/
+	chown -R "$username":"$username" /home/"$username"/Images/Screenshots_dynamic_wallpapers/
+	chown "$username":"$username" /home/"$username"/Images/CREDITS.txt
 	echo ""
 }
 
