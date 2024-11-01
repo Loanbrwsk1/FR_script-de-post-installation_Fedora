@@ -43,7 +43,7 @@ Suite à la configuration, des alias seront disponibles. Un alias est une chaine
 |   install     |   sudo dnf install -y          |   install <app> -> installe l'application <app>                                   |
 |   remove      |   sudo dnf remove -y           |   remove <app> -> supprimer l'application <app>                                   |
 |   fmaj        |   flatpak update -y            |   fmaj -> mise à jour de flatpak                                                  |
-|   fs          |   flatpak search               |   fs <mot-cle> -> recherche les flatpak contenant <mot cle>                       |
+|   fsearch     |   flatpak search               |   fs <mot-cle> -> recherche les flatpak contenant <mot cle>                       |
 |   finstall    |   flatpak install flathub -y   |   finstall <ID> -> installe le flatpak avec l'identifiant <ID> depuis flathub     |
 |   fremove     |   flatpak remove -y            |   fremove <ID> -> supprime le flatpak avec l'identifiant <ID>                     | 
 |               |                                |                                                                                   |

@@ -41,7 +41,7 @@ alias remove="sudo dnf remove -y"
 alias finstall="flatpak install flathub -y"
 alias fremove="flatpak remove -y"
 alias fmaj="flatpak update -y"
-alias fs="flatpak search"' >> /home/"$username"/.bashrc
+alias fsearch="flatpak search"' >> /home/"$username"/.bashrc
 	fi
 	cd ./config-fedora/
 	cd ./dynamic-wallpapers/
