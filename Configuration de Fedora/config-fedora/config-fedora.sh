@@ -4,7 +4,7 @@ username=$(zenity --entry --title="Nom d'utilisateur" --text="Entrez votre nom d
 RPMFUSIONCOMP="rpmfusion-free-appstream-data rpmfusion-nonfree-appstream-data rpmfusion-free-release-tainted rpmfusion-nonfree-release-tainted"
 GNOMECOMP="gnome-extensions-app gnome-shell-extension-dash-to-dock"
 CODEC="gstreamer1-plugins-base gstreamer1-plugins-good gstreamer1-plugins-bad-free gstreamer1-plugins-good-extras gstreamer1-plugins-bad-free-extras gstreamer1-plugins-ugly-free gstreamer1-plugin-libav gstreamer1-plugins-ugly libdvdcss gstreamer1-plugin-openh264"
-FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter com.mattjakeman.ExtensionManager org.gnome.Extensions"
+FLATPAKAPP="com.visualstudio.code org.gimp.GIMP org.flameshot.Flameshot org.keepassxc.KeePassXC org.videolan.VLC com.github.marinm.songrec org.soundconverter.SoundConverter com.mattjakeman.ExtensionManager org.gnome.Extensions io.github.flattool.Warehouse"
 ADDAPP="aspell-fr amd-ucode-firmware seahorse gnome-tweaks file-roller dconf-editor gnome-boxes abrt screen vim-enhanced ShellCheck htop nmon glances neofetch screenfetch fastfetch inxi lm_sensors nvtop ncdu cronie nfs-utils sl nyancat nwipe sg3_utils ecryptfs-utils netcat nmap iftop traceroute fuse-sshfs telnet borgbackup soundconverter virtualbox cool-retro-term gparted btrfs-assistant"
 
 
